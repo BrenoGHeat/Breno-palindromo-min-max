@@ -5,14 +5,15 @@ function isPalindrome(palavra){
 
     for(let i = frase.length - 1 ; i >= 0 ; i--){
         palavraInvertida = palavraInvertida + frase[i];
-        console.log(palavraInvertida);
+        
 
     }
 
-        if(frase == palavraInvertida){
-            return true
-        }
-            return false
+    if(frase == palavraInvertida){
+        return true
+    }
+    
+    return false
 }
 
 
@@ -29,8 +30,7 @@ function arrayMaxMin(arr){
         valorMaximo = arr[i];
        }
     }
-        console.log(valorMaximo, valorMinimo);
-        console.log(arr);
+    
 
    return [valorMinimo , valorMaximo];
 }
